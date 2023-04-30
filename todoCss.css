@@ -1,0 +1,95 @@
+body {
+    padding: 1%;
+    font-family: sans-serif;
+	background-image: url(/home/gorairajeev123/Downloads/289365747_424940516198148_7509399402412786778_n.jpg);
+	background-repeat: no-repeat; 
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: center;
+}
+
+#head {
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    color: blueviolet;
+    padding-bottom: 10px;
+    
+}
+
+h1 {
+    background-color: cyan;
+
+}
+
+#content {
+    justify-content: space-around;
+    display: flex;
+    
+    
+}
+
+#form {
+    width: 40%;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#table {
+    padding: 0 auto;
+    width: 60%;
+}
+
+form input {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid moccasin;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+form select {
+    width: 75%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid moccasin;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#btn {
+    width: 40%;
+    background-color: blue;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+table th, td {
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid whitesmoke;
+
+}
+
+table th {
+    background-color: blue;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: lemonchiffon;
+}
+
+table tr:nth-child(odd) {
+    background-color: lightblue;
+}
